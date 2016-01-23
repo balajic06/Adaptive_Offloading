@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Screen Design for Photos -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="38dp"
+        android:text="Choose a File to Convert"
+        android:textSize="20sp" />
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_below="@id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Images"
+         />
+    <Button
+        android:id="@+id/localbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="20px"
+        android:text="Local Execution" />
+
+    <Button
+        android:id="@+id/adapbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/offbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="20px"
+        android:gravity="center_horizontal|center"
+        android:scrollHorizontally="false"
+        android:text="Adaptive Offloading" />
+
+    <Button
+        android:id="@+id/offbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/localbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:gravity="center_horizontal|center"
+        android:text="Offloading" />
+
+</RelativeLayout>

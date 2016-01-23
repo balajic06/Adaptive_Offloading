@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Offloader</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="Images">
+        <item>Image1</item>
+        <item>Image2</item>
+        <item>Image3</item>
+        <item>Image4</item>
+    </string-array>
+
+    <string name="title_activity_local_execute">LocalExecute</string>
+
+</resources>
